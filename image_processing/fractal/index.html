@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mandeltest</title>
+		<style>
+			* {background-color: #000; color: #EEF; font-size: 20px; font-family: monospace; margin: 0px; padding: 0px; overflow: hidden;}
+			#panel {display: inline-block; vertical-align: top;}
+			#canvas {border-right: #FFF solid 1px; width: 100vh; image-rendering: optimizeSpeed;}
+			#footer {position: absolute; bottom: 0px; right: 0px; z-index: 1;}
+		</style>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<canvas id="canvas"></canvas>
+		<div id="panel">
+			<div id="info"></div>
+			<br>Step X: <input id="step-x" type="number"></input>
+			<br>Step Y: <input id="step-y" type="number"></input>
+			<br>Step Z: <input id="step-z" type="number"></input>
+		</div>
+		<div id="footer">v1.7 02.12.2024</div>
+	</body>
+</html>
